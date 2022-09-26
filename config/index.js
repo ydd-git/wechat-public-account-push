@@ -31,11 +31,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "自己",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oX_Nc5qcG5SIiuRaYhjBTLuwfU5w",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "67rLp2ywxQfY4oPRXOBI9h5O5-vpUNggQzxm7zmPr98",
+      useTemplateId: "hJ3pcCNBgRVK6H2CaIMJXYkWpdbI1Z2ZOzRr0GDRliI",
       // 所在省份
       province: "四川",
       // 所在城市
@@ -43,12 +43,12 @@ export const config = {
       openUrl: "https://weibo.com"
     }, 
     {
-      name: "老婆1", 
+      name: "乖乖", 
       id: "oX_Nc5mt3dXrJ97dutmfKk0omK6o",
-      useTemplateId: "67rLp2ywxQfY4oPRXOBI9h5O5-vpUNggQzxm7zmPr98",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
+      useTemplateId: "hJ3pcCNBgRVK6H2CaIMJXYkWpdbI1Z2ZOzRr0GDRliI",
+      province: "四川",
+      city: "成都",
+      openUrl: "https://weibo.com"
     }, 
   ],
 
@@ -57,7 +57,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
+  CALLBACK_TEMPLATE_ID: "FqEYNQleTVkfXtMDXCro7Juyox8CjVgeAVYO2lGHVgg",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -76,9 +76,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "四川",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "成都",
 
   /** 重要节日相关 */
 
@@ -89,10 +89,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "乖乖", "year": "1996", "date": "08-25"},
+    {"type": "节日", "name": "结婚纪念日", "year": "2022", "date": "04-26"},
   ],
 
   /**
